@@ -29,4 +29,5 @@ def get_english_meaning(path, emoticon)
       return value[:english]
     end
   end
+  return "Sorry, that emoticon was not found"
 end
